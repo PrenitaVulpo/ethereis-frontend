@@ -1,1 +1,15 @@
 // app global css in SCSS form
+.main-gradient {
+	background-color: $gradient-1;
+	background-image: linear-gradient(
+		100deg,
+		$gradient-1,
+		$gradient-2,
+		$gradient-3
+	);
+	background-size: 100%;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+}
