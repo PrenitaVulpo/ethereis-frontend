@@ -2,20 +2,18 @@
 	<q-layout view="hHh lpR fFf">
 		<q-header reveal elevated class="bg-primary text-white" height-hint="98">
 			<q-toolbar>
-				<q-toolbar-title>
-					<q-avatar> </q-avatar>
-					Title
+				<q-toolbar-title class="text-bold">
+					<span class="main-gradient">$BRDX</span>
 				</q-toolbar-title>
 			</q-toolbar>
 
 			<q-tabs align="left">
-				<q-route-tab to="/page1" label="Page One" />
-				<q-route-tab to="/page2" label="Page Two" />
-				<q-route-tab to="/page3" label="Page Three" />
+				<q-route-tab to="/" label="Home" />
+				<q-route-tab to="/swap" label="Swap" />
 			</q-tabs>
 		</q-header>
 
-		<q-page-container>
+		<q-page-container class="bg-primary">
 			<router-view />
 		</q-page-container>
 	</q-layout>
